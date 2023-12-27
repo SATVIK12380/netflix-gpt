@@ -5,7 +5,6 @@ import {checkValidData}  from "../utils/Validate"
 const Login = () => {
   const [isSignInForm, setIsSignInForm] = useState(true);
   const [errorMessage, setErrorMessage] = useState(null);
-//   const dispatch = useDispatch();
 
   const name = useRef(null);
   const email = useRef(null);
